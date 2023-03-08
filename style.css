@@ -1,0 +1,185 @@
+* {
+	margin:0;
+}
+header {
+	position:fixed;
+	background:#007765;
+	border: 1px solid black;
+	width: 100%;
+	padding:1em 0;
+}
+.head_c {
+	box-sizing: border-box;
+	padding:0 2em;
+	max-width:1219px;
+	margin:auto;
+}
+.head_inv {
+	height:83.6px;
+	width:100%;
+	visibility: hidden;
+}
+.logo_ {
+	float: left;
+}
+#lg2 {
+	position:relative;
+	left:-49px;
+}
+.urls_ {
+	float: right;
+	color: white;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	text-align:center;
+	margin:0.45em 0.1em;	
+}
+.urls_ a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+
+.jumbotron {
+	background-image: url("jumbo.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:100%;
+	background-size: cover;
+}
+.jumbo_c {
+	padding:2.2em 0;
+	margin:auto;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color:white;
+	max-width:1219px;
+}
+.hero {
+	background-image: url("hero.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:100%;
+	background-size: cover;
+}
+.hero_c {
+	padding:2.65em 0;
+	margin:auto;
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color:white;
+	max-width:1219px;
+}
+.theproblemback {
+	background-color: #eeeeee;
+}
+.theproblem {
+	box-sizing: border-box;
+	padding:1.5em 2em 3em;
+	max-width:1219px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	color:black;
+	margin:auto;
+}
+.theproblem h1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color:#007765;
+	margin-bottom:0.4em;
+}
+.ppc {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	color:black;
+	margin:auto;
+	box-sizing: border-box;
+	padding:1.5em 2em 3em;
+	max-width:1219px;
+}
+.ppc h1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color:#007765;
+	margin-bottom:0.4em;
+}
+.ppc img {
+	float:left;
+	margin-right:1.5em;
+}
+
+.theteamback {
+	background-color: #eeeeee;
+}
+.theteam h1 {
+	font-family: 'Roboto';
+	text-align: center;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color:#007765;
+}
+.theteam {
+	box-sizing: border-box;
+	padding:1.5em 2em 3em;
+	max-width:1219px;
+	margin:auto;
+	text-align: center;
+}
+.membercard h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color:#007765;
+}
+.membercard p {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+.membercard {
+	display: inline-block;
+	margin: 5em;
+}
+footer {
+	background-color: #333333;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color:white;
+}
+footer p {
+	max-width:1219px;
+	padding:2em;
+	margin:auto;
+}
